@@ -132,6 +132,7 @@ main {
 @media(min-width: 1000px) {
     body {
         display: flex;
+        height: 100vh;
     }
 
 
@@ -163,6 +164,12 @@ main {
     .bg-desktop{
         display: block;
         width: 100%;
+    }
+
+    .bg-desktop img {
+        width: 100%;
+        height: 100%;
+        display: block;
     }
 
     .descricao h1{
